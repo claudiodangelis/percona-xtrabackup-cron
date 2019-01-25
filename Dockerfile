@@ -1,6 +1,5 @@
 FROM claudiodangelis/percona-xtrabackup
 
-RUN apt-get update && apt-get install -y cron
 RUN rm -rf /tmp/* /var/lib/apt/lists/* /var/log/*
 
 ADD entrypoint.sh /bin/entrypoint
