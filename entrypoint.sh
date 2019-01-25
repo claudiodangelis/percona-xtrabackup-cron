@@ -15,4 +15,4 @@ echo "$CRON" | crontab -
 crontab -l
 
 # run cron in foreground
-cron -f
+crond -f
