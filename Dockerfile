@@ -1,4 +1,4 @@
-FROM claudiodangelis/percona-xtrabackup
+FROM claudiodangelis/percona-xtrabackup:latest
 
 RUN rm -rf /tmp/* /var/lib/apt/lists/* /var/log/*
 
